@@ -1,0 +1,47 @@
+# ==============================================================================
+# Cosmic Sort 2026 .gitignore
+# ==============================================================================
+
+# OS & IDE metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Large Datasets (Download from Kaggle per Rulebook)
+train.csv
+test.csv
+sample_submission.csv
+
+# Checkpoint Arrays, Scratch Directories & Caches
+cached_predictions/
+mlp_val_probs_*.npy
+catboost_info/
+*.log
+
+# Experimental submission snapshots (submission.csv is the production deliverable)
+submission_*.csv
+
+# Exploratory / Legacy scratch files
+cosmic_sort_solution*.ipynb
+build_notebook.py
+build_robust_notebook.py
+run_ultra.py
+*_summary.json
+experiment_results.csv
